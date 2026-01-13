@@ -1,1 +1,2 @@
-import { defineConfig } from 'vite'; export default defineConfig({ base: '/dresstoimpress/', });
+import { defineConfig } from 'vite'
+ export default defineConfig({ base: './', });
