@@ -1,13 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dresstoimpress</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dresstoimpress</title>
+</head>
+
+<body>
+  <header class="street-header">
+    <h1>Walking the Street</h1>
+  </header>
+
+  <div class="street-wrapper">
+    <div class="street-scene">
+
+      <div class="layer bg"></div>
+      <div class="layer mid"></div>
+      <div class="layer fg"></div>
+
+      <section class="moment" data-step="0">
+        <h2>Moment 1</h2>
+        <p>This is the first moment on the street.</p>
+      </section>
+
+      <section class="moment" data-step="1">
+        <h2>Moment 2</h2>
+        <p>You’ve walked a little further.</p>
+      </section>
+
+      <section class="moment" data-step="2">
+        <h2>Moment 3</h2>
+        <p>The street continues to unfold.</p>
+      </section>
+
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
